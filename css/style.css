@@ -1,0 +1,1154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    max-width: 100%;
+}
+a {
+    cursor: pointer;
+}
+header {
+    border-bottom: 1px solid #D7D7D7;
+}
+header .navbar-brand-div {
+    border-right: 1px solid #D7D7D7;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    justify-content: center;
+}
+header .navbar-brand-div a{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block; 
+    width: 80%;
+}
+header .navbar-brand-right {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+header .navbar-brand-right a {
+    background: #8000E5;
+    display: inline-flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+color: white;
+border-radius: 8px;
+text-decoration: none;  
+padding: 0.75rem 1.5rem;  
+min-height: 50px;
+float: right;
+}
+header .navbar-brand-right form {
+    width: 100%;
+    display: inline-flex;
+    background: #F2F2F3;
+    padding: 0.75rem;
+    border-radius: 8px;
+    min-height: 50px;
+}
+header .navbar-brand-right form input {
+    border: none;
+    background: transparent;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: black;
+    flex-grow: 1;
+    max-width: 90%;
+}
+header .navbar-brand-right form input::placeholder {
+color: #898989;
+}
+header .navbar-brand-right form input:focus {
+    outline: none;
+}
+header .navbar-brand-right form button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end
+}
+header .navbar-brand-right a img {
+margin-right: 14px;
+}
+aside {
+    background-color: #8000E5;
+    background-image: url('../images/aside-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    transition: 1s;
+}
+aside h3 {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+text-transform: uppercase;
+color: white;
+padding-left: 1.5rem;
+margin-top: 72px;
+margin-bottom: 52px;
+}
+aside ul {
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+aside ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #E5E5E5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+aside ul li:first-of-type {
+    padding-top: 0;
+}
+aside ul li:last-of-type {
+    padding-bottom: 0;
+    border: 0;
+}
+aside ul li a {
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+text-decoration: none;
+}
+aside ul li a span.list-icon {
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 17px;
+}
+aside ul li a img {
+
+}
+footer {
+    background: #333944;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer p {
+    color: white;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin: 0;
+    padding-left: 1.5rem;
+    opacity: 0.25;
+}
+footer ul {
+    padding: 0;
+}
+footer ul li {
+    float: right;
+    margin-left: 33px;
+    list-style-type: none;
+}
+footer .text-column {
+    display: flex;
+    align-items: center;
+}
+h2.heading-title {
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+padding-left: 1.5rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+border-left: 8px solid #8000E5;
+}
+hr {
+    background-color: #D7D7D7;
+}
+.heading-title-row-main {
+    padding-top: 2rem;
+    padding-bottom: 0.75rem;
+    margin: 0;
+}
+.btn-empty-custom {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;   
+    color: #898989;
+    padding: 1rem 1rem;
+    border: 1px solid #B5B5B5;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+.btn-important-custom {
+    padding: 1rem 1rem;
+    border: none;
+    background: #8000E5;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 8px;
+}
+.heading-btns-submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading-btns-submit .row {
+    width: 100%;
+}
+.input-section-main-row .form-group,
+.main-content-styling-inputs .form-group {
+    border-bottom: 1px solid #E5E5E580 !important;
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.input-section-main-row .form-group label {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+    padding: 0;
+}
+.input-section-main-row .form-group input,.input-section-main-row .form-group select {
+    background-color: #F7F7F7;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: black;    
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+}
+.tab-container-important .form-group input {
+    background-color: white;
+}
+.input-section-main-row .form-group input::placeholder {
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+}
+.merchants-history-main {
+    border: 1px solid #E7EAEC;
+    padding: 1rem;
+    border-radius: 14px;
+    height: 100%;
+}
+.merchants-history-main h3 {
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+background: #E2D4F5;
+padding: 1rem;
+border-radius: 5px;
+text-transform: uppercase;
+margin-bottom: 1.2rem;
+}
+.merchants-history-main p {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.hr-divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #C4C4C4;
+}
+.tab-container-main {
+    border: 2px solid #E7EAEC;
+    padding: 1.5rem;
+    border-radius: 14px;
+    height: 100%;
+}
+input[type='checkbox'] {
+    background: #F7F7F7;
+    padding: 0.8rem !important;
+    border-radius: 4px;
+}
+input[type=checkbox]:checked {
+    background: #8000E5;
+}
+.tab-container-main .form-group label,
+.edit-merchant-right .form-group label{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    
+}
+.tab-container-main .form-group label input,
+.edit-merchant-right .form-group label input {
+    margin-right: 16px;
+    margin-top: 0;
+}
+.tab-container-main .form-group .col-4,
+.edit-merchant-right .form-group .col-4,
+.main-content-styling-inputs .form-group .col-4 {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.tab-container-main .form-group .col-4 span,
+.edit-merchant-right .form-group .col-4 span,
+.main-content-styling-inputs .form-group span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    min-width: 20px;
+}
+.tab-container-main .form-group .col-4 input,
+.edit-merchant-right .form-group .col-4 input,
+.main-content-styling-inputs .form-group input {
+    flex-grow: 1;
+    padding: 1rem 0.25rem;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center !important;
+}
+.tab-container-main .form-group .col-4 input::placeholder,
+.edit-merchant-right .form-group .col-4 input::placeholder,
+.main-content-styling-inputs .form-group input {
+    text-align: center;
+}
+.tab-container-important {
+    background: #E2D4F533;
+    border-color: #E2D4F533;
+}
+.main-content-div {
+    padding-left: 2.5rem;
+    padding-bottom: 5rem;
+}
+@media only screen and (max-width: 960px) {
+    .padding-l-sm-0 {
+        padding-left: 0;
+    }
+    .navbar-brand-right {
+        padding: 0;
+    }
+    .navbar-brand-right .row {
+        margin: 0;
+    }
+    .navbar-brand-right .row .col-8 {
+        padding-right: 0;
+    }
+    header .first-row {
+        margin: 0;
+    }
+    .navbar-brand-div {
+        padding-left: 0;
+    }
+    .navbar-brand-right a,.navbar-brand-right a img {
+        margin: 0 !important;
+    }
+    .navbar-brand-right .col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    }
+    .navbar-brand-right a span {
+        display: none;
+    }
+    header .navbar-brand-right form {
+        display: inline-flex;
+    }
+    header .navbar-brand-right form input {
+        width: 80%;
+    }
+    .hidden-sm {
+        display: none;
+    }
+    .margin-sm-0 {
+        margin: 0;
+    }
+
+    .input-section-main-row .form-group:last-child { 
+        margin-bottom: 0.5rem;
+        border: none !important;
+    }
+
+    .padding-r-sm-0 {
+        padding-right: 0;
+    }
+    .mb-sm-5 {
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    header .navbar-brand-right form input {
+        max-width: 85%;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    margin: 0;
+    }
+    footer ul li {
+        margin: 0;
+    }
+    footer ul li a img {
+        min-width: 20px;
+    }
+    .body-navbar-small aside {
+        display: block !important;
+        width: 100%;
+        position: absolute;
+        padding-bottom: 2rem;
+        z-index: 444;
+        left: 0;
+        right: 0;
+    }
+    section .container-fluid {
+        padding: 0;
+    }
+    section .col-md-10 {
+        padding: 0 1rem;
+    }
+}
+@media only screen and (min-width: 1600px) {
+.paddig-columns-bigger {
+    padding-left: 6rem;
+}
+}
+@media only screen and (min-width: 960px) {
+    .body-navbar-small .col-md-10 {
+        width: calc(100% - 80px);
+        }
+        .body-navbar-small aside {
+            display: block;
+        }
+
+    .navbar-brand-small, .aside-sidebar-small {
+        width: 80px;
+    }
+    .navbar-brand-small button {
+        margin-left: 0.8rem;
+    }
+    .aside-sidebar-small h3 {
+        text-align: center;
+        padding: 0;
+    }
+    .aside-sidebar-small ul {
+        padding: 0.5rem;
+    }
+    .aside-sidebar-small ul li {
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: none;
+    }
+    .aside-sidebar-small ul li a span.list-link-text {
+        display: none;
+    }
+    .aside-sidebar-small ul li a span.list-icon {
+        margin-right: 0;
+    }
+    .hidden-md {
+        display: none;
+    }
+    .padding-l-md-0 {
+        padding-left: 0;
+    }
+    .padding-r-md-0 {
+        padding-right: 0;
+    }
+    .padding-md-0 {
+        padding: 0 !important;
+    }
+    .margin-md-0 {
+        margin: 0;
+    }
+    .m-mb-0 {
+        margin: 0;
+    }
+    .margin-md-0 {
+        margin: 0;
+    }
+}
+.mb-45 {
+    margin-bottom: 2rem;
+}
+.mb-55 {
+    margin-bottom: 3rem;
+}
+.tab-container-main h2 {
+    margin-bottom: 3rem;
+}
+.tab-container-main .mb-5 {
+    border: none;
+}
+.tab-container-main .form-group,
+.edit-merchant-right .form-group{
+    margin-left: 0;
+}
+#saveModal .modal-content,
+#addAgentModal .modal-content{
+    background: #8000E5;
+    border-radius: 14px;
+    color: white;
+    padding: 3rem 4.5rem 2.5rem 4.5rem;
+}
+#saveModal .modal-content p {
+    margin-bottom: 0.2rem;
+}
+#saveModal .modal-footer,
+#addAgentModal .modal-footer {
+    text-align: center!important;
+    justify-content: center;
+    border: none;
+}
+#saveModal .modal-footer .btn,
+#addAgentModal .modal-footer .btn {
+    border-radius: 8px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+#saveModal .modal-footer .btn-primary,
+#addAgentModal .modal-footer .btn-primary {
+    margin-right: 21px;
+    background: #0F293C;
+    border: 1px solid #0F293C;
+}
+#saveModal .modal-footer .btn-secondary,
+#addAgentModal .modal-footer .btn-secondary {
+    background: transparent;
+    border: 1px solid #B5B5B5;
+}
+#saveModal .modal-dialog,
+#addAgentModal .modal-dialog {
+    min-width: 600px !important;
+    width: auto;
+
+}
+@media only screen and (max-width: 960px) {
+
+    .hidden-sm {
+        display: none !important;
+    }
+    #saveModal .modal-dialog,
+    #addAgentModal .modal-dialog {
+        min-width: 100% !important;
+        margin: 0;
+    }
+    #saveModal .modal-content,
+    #addAgentModal .modal-content {
+        padding: 1rem 0;
+        border-radius: 0;
+    }
+    header .navbar-brand-div {
+        justify-content: flex-start !important;
+    }
+    header .navbar-brand-div a img {
+        max-width: 80%;
+    }
+}
+.merchant-fees-table {
+    padding-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+@media only screen and (max-width: 960px) {
+    .merchant-fees-table {
+        padding-right: 0;
+    }
+}
+.merchant-fees-table thead th {
+    border: none;
+}
+.merchant-fees-table thead tr span {
+    display: inline-block;
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 0.27rem;
+min-height: 30px;
+}
+.merchant-fees-table thead tr button {
+    border: none;
+    background: none;
+}
+.merchant-fees-table tbody tr {
+    margin-bottom: 1rem;
+    border-bottom: 20px solid white;
+    border-radius: 8px;
+}
+.merchant-fees-table tbody tr:last-of-type {
+    border: none;
+}
+.merchant-fees-table tbody th,.merchant-fees-table tbody td {
+    border: none;
+    padding: 1rem 0.5rem;
+    min-height: 65px;
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+background: #F7F7F7;
+color: #898989;
+text-align: left;
+vertical-align: middle;
+}
+.edit-merchant-right {
+    padding-left:3rem;
+}
+.hidden {
+    display: none;
+}
+.fee-selection-active {
+    display: block;
+}
+.add-agent-btn-modal {
+    border: none;
+    margin-left: 0.5rem;
+    background: #8000E5;
+    display: inline-flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+}
+body .col-md-10 {
+    transition: 1s;
+}
+.navbar-brand-div button {
+    background: #8000E5;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: inline-block;
+}
+.clickable-row {
+    cursor: pointer;
+}
+.input-two-char {
+    width: 100px !important;
+    text-align: center !important;
+}
+input.input-two-char::placeholder {
+    text-align: center !important;
+}
+.input-section-main-row .nav-tabs {
+    border-bottom: 1px solid #D7D7D7B2;
+    margin-bottom: 1rem;
+    
+}
+.input-section-main-row .nav-tabs .nav-link {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color:  black;
+    padding: 1rem 4rem;
+}
+.input-section-main-row .nav-tabs .nav-link.active {
+    color: #8000E5;
+    border: none;
+    border-bottom: 4px solid #8000E5;
+}
+input:focus, select:focus {
+    background: white !important;
+    border: 3px solid #8000E533 !important;
+    box-shadow: none !important;
+}
+.colored-facts-main {
+    margin-top: 2.5rem;
+}
+.colored-facts-main .colored-facts-tabs {
+    padding: 2rem 3rem 1rem 1rem;
+    border-radius: 8px;
+    flex-grow: 1;
+    margin-right: 2rem;
+}
+.colored-facts-main .colored-facts-tabs h3 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+.colored-facts-main .colored-facts-tabs p {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+margin: 0;    
+}
+.filter-by-column-main h3 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+.filter-by-column-main a {
+    text-decoration: none;
+    margin-right: 2rem;
+    flex-grow: 1;
+    background: #F7F7F7;
+    color: black;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem;  
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-by-column-main a img {
+    display: none;
+}
+.filter-by-column-main a.active {
+    color: white;
+    background: #8000E5;
+
+}
+.filter-by-column-main a.active img {
+    display: block
+}
+.main-content-styling-inputs h3 {
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+display: inline-block;
+}
+.main-content-styling-inputs .form-group.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.settings-providers-main h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+.settings-providers-main .heading-btn-highlight {
+    color:  white;
+min-width: 231px;
+border-radius: 8px;
+background-color: #8000E5;
+text-decoration: none;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 32px;
+padding: 1rem;
+    height: fit-content;
+    box-shadow: rgb(0 0 0 / 0%) 0px 5px 80px, rgb(0 0 0 / 22%) 0px 10px 20px;
+}
+.settings-providers-main .heading-btn-highlight img {
+    margin-right: 14px;
+}
+.settings-providers-main .settings-providers-labels {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 0.5rem;
+}
+.settings-providers-main .last-providers-row {
+    background: #E2D4F533;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right:12px;
+}
+.settings-providers-main .last-providers-row .text-div {
+    display: flex;
+    align-items: center;
+}
+.settings-providers-main .last-providers-row .text-div p {
+    margin: 0;
+}
+.settings-providers-main .last-providers-row input {
+    background: white;
+}
+.settings-providers-main .btns-row-main {
+    padding: 0;
+}
+
+.settings-users-row a {
+    background: #D7D7D7B2;
+    border-radius: 8px;
+    padding: 1rem 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.input-section-main-row .col-md-12 .form-group:last-child {
+    border: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+@media only screen and (max-width: 960px) {
+    .colored-facts-main .colored-facts-tabs {
+        padding: 1rem 0.5rem;
+        margin-right: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .input-section-main-row .col-lg-3 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .filter-by-column-main a:last-of-type {
+        margin-right: 0;
+    }
+    .colored-facts-main {
+        flex-direction: column;
+    }
+    .colored-facts-main .colored-facts-tabs {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+    .colored-facts-main .colored-facts-tabs h3 {
+        font-size: 10px;
+    }
+    .colored-facts-main .colored-facts-tabs p {
+        font-size: 24px;
+    }
+    .filter-by-column-main a {
+        font-size: 8px;
+        margin-right: 0.5rem;
+    }
+    .padding-sm-0 {
+        padding: 0 !important;
+    }
+    .padding-sm-rem {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .padding-sm-15rem {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .input-section-main-row .nav-tabs .nav-link {
+        padding: 1rem;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .input-section-main-row .nav-tabs li {
+        width: 50%;
+    }
+    .padding-l-sm-0  {
+        padding-left: 0 !important;
+    }
+
+    .main-content-div {
+        padding-bottom: 0;
+    }
+    .margin-r-sm-0 {
+        margin-right: 0 !important;
+    }
+}
+.padding-r-0 {
+    padding-right: 0;
+}
+a.btn-click-enable span {
+    display: none;    
+}
+a.btn-click-enable {
+    background: #898989;
+    color: white;
+    text-decoration: none;
+}
+a.btn-click-enable span.hidden {
+    display: block;
+}
+@media only screen and (max-width: 1700px) {
+    .settings-providers-labels {
+        font-size: 8px;
+    }
+    .input-section-main-row .col-md-12 .form-group.border-bottom-sm {
+        border-bottom: 1px solid #E5E5E580 !important;
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    }
+    .settings-users-row .col-md-3 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    .settings-users-row .col-6 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    .settings-users-row .col-6 a{
+        padding: 1rem 0.25rem;
+        font-size: 8px;
+    }
+    .settings-users-row input,    .settings-users-row select {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        font-size: 8px !important;
+    }
+    .settings-users-row input::placeholder {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        font-size: 8px !important;
+    }
+    .settings-providers-main .settings-providers-labels {
+        font-size: 8px;
+        text-align: center;
+    }
+    .settings-providers-main .settings-providers-labels .col-6{
+        padding: 0;
+    }
+    .settings-page .col-lg-6,.agent-edit-page .col-lg-10,.agents-edit2-page .col-lg-10 {
+        width: 100% !important;
+    }
+    .input-section-main-row .nav-tabs {
+        margin-right: 0;
+    }
+    .input-section-main-row .nav-tabs li {
+        width: 50%;
+    }
+    .input-section-main-row .nav-tabs .nav-link {
+        text-align: center;
+    }
+    .merchant-fees-table {
+        padding-right: 0;
+    }
+}
+@media only screen and (min-width: 980px) {
+    .padding-l-md-0 {
+        padding-left: 0;
+    }
+    .hr-padding-right {
+        margin-right: 12px;
+    }
+
+}
+/* */
+.loginMain .leftSide,.loginMain .rightSide {
+    min-height: 70vh;
+    padding: 10% 8%;
+}
+.loginMain .leftSide {
+    background: #8000E5;
+    background-image: url('../images/login-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.loginMain .leftSide h2 {
+    color: white;
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 400;
+line-height: 49px;
+letter-spacing: 0em;
+margin-bottom: 1rem;
+}
+.loginMain .leftSide p {
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+max-width: 395px;
+color: white;
+}
+.loginMain .rightSide h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin-bottom: 2rem;  
+}
+.loginMain .rightSide label {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left; 
+    margin-bottom: 1rem;   
+}
+.loginMain .rightSide input {
+    background: #F7F7F7;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C4C4C4;
+    border: none;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.25rem;
+    border-radius: 8px;
+}
+.loginMain .rightSide input::placeholder {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C4C4C4;
+    border: none;
+    padding: 0.5rem;
+}
+.loginMain .rightSide input, .loginMain .rightSide .input-group a {
+    height: 50px;
+}
+.loginMain .rightSide .input-group a {
+    color: #8000E5;
+    background: #F7F7F7;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+.loginMain .rightSide .form-check {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.loginMain .rightSide .form-check input {
+    height: auto;
+    margin-right: 0.5rem;
+    width: 8px;
+    height: 8px;
+    padding: 8px !important;
+    box-sizing: border-box;
+    border: 4px solid white !important;
+}
+.loginMain .rightSide .form-check input:checked {
+    border: 4px solid #8000E5 !important;
+    background: none !important;
+    box-sizing: border-box;
+}   
+.loginMain .rightSide .form-check label {
+    margin-bottom: 0;
+}
+.loginMain .rightSide button {
+    background: #8000E5;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: rgb(0 0 0 / 0%) 0px 5px 80px, rgb(0 0 0 / 22%) 0px 10px 20px;
+}
